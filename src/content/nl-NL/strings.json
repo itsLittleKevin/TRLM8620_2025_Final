@@ -30,94 +30,95 @@
         "13": "A pretty good droid for coordinating attacks. Not good at fighting, just good at planning."
     },
     "Navbar": {
-        "searchPlaceholder": "What are you looking for?",
-        "searchButtonLabel": "search products",
-        "logoAlt": "Galaxy L10n Supplies",
-        "searchIconAlt": "search icon",
-        "greetingText": "Hallo galactisatie- strijder",
-        "historyLink": "ORDER HISTORY",
-        "arrowAlt": "Drop Down Arrow",
-        "cartAlt": "show cart",
-        "navLinkHome": "HOTTENTOTTENTENTENTENTOONSTELLINGTHUISPAGINA",
-        "navLinkDroids": "HOTTENTOTTENTENTENTENTOONSTELLINGACTIVITEITENOVERZICHT",
-        "navLinkVehicles": "HOTTENTOTTENTENTENTENTOONSTELLINGAAAAAHHHH"
+        "searchPlaceholder": "Waar bent u naar op zoek?",
+        "searchButtonLabel": "producten zoeken",
+        "logoAlt": "Galaxy L10n Leveranciers",
+        "searchIconAlt": "zoekpictogram",
+        "greetingText": "Hallo G11N Strijder",
+        "historyLink": "BESTELGESCHIEDENIS",
+        "arrowAlt": "Keuzemenu pijl",
+        "cartAlt": "toon winkelwagen",
+        "navLinkHome": "HOME",
+        "navLinkDroids": "DROÏDEN",
+        "navLinkVehicles": "VOERTUIGEN"
     },
     "Home": {
-        "welcomeSubtitle": "We provide everything you need to take on the Galactization (G11n) Challenge (and win).",
-        "symbolAlt": "Imperial Credit currency symbol"
+        "welcomeTitle": "Welkom bij Galaxy L10n Leveranciers!",
+        "welcomeSubtitle": "Wij bieden alles wat u nodig heeft om de Globalisatie (G11n) Uitdaging aan te gaan (en te winnen).",
+        "symbolAlt": "Keizerlijke Credit valutasymbool"
     },
     "Browse": {
-        "browseTitleAll": "All",
-        "browseTitleDroids": " droids",
-        "browseTitleVehicles": " vehicles"
+        "browseTitleAll": "Alle",
+        "browseTitleDroids": " droïden",
+        "browseTitleVehicles": " voertuigen"
     },
-    
     "Checkout": {
-        "checkoutTitle": "Checkout",
-        "shipSectionLabel": "Shipping Info",
-        "firstNameLabel": "First Name",
-        "lastNameLabel": "Last Name",
-        "coordinatesLabel": "Coordinates",
+        "checkoutTitle": "Afrekenen",
+        "shipSectionLabel": "Verzendgegevens",
+        "firstNameLabel": "Voornaam",
+        "lastNameLabel": "Achternaam",
+        "coordinatesLabel": "Coördinaten",
         "coordinatesHolder": "0,0,0",
         "sectorLabel": "Sector",
-        "methodLabel": "Shipping Method",
-        "shipLightspeed": "Lightspeed",
-        "shipOvernight": "Overnight",
-        "shipStandard": "Standard",
-        "paySectionLabel": "Payment",
-        "payNameLabel": "Name on Card",
-        "payNameHolder": "First Last",
-        "accountLabel": "Credit Number",
+        "methodLabel": "Verzendmethode",
+        "shipLightspeed": "Lichtsnelheid",
+        "shipOvernight": "Volgende dag",
+        "shipStandard": "Standaard",
+        "paySectionLabel": "Betaling",
+        "payNameLabel": "Naam op kaart",
+        "payNameHolder": "Voor Achter",
+        "accountLabel": "Creditnummer",
         "accountHolder": "1234567-9876-00",
-        "securityLabel": "Security Code",
+        "securityLabel": "Beveiligingscode",
         "securityHolder": "123456",
-        "expDateLabel": "Expiration Date",
-        "cartTitle": "Shopping Cart",
-        "deleteAlt": "remove item from cart",
-        "totalLabel": "Total: ",
-        "orderLabel": "PLACE ORDER",
-        "termsStatement": "I have read and agree to the Terms and Conditions",
-        "termsLink": "(View)",
-        "successMessage": "Order placed successfully!",
-        "noItemMessage": "Add items to cart to checkout."
+        "expDateLabel": "Vervaldatum",
+        "cartTitle": "Winkelwagen",
+        "deleteAlt": "artikel uit winkelwagen verwijderen",
+        "totalLabel": "Totaal: ",
+        "orderLabel": "BESTELLING PLAATSEN",
+        "termsStatement": "Ik heb de Algemene Voorwaarden gelezen en ga hiermee akkoord",
+        "termsLink": "(Bekijken)",
+        "successMessage": "Bestelling succesvol geplaatst!",
+        "noItemMessage": "Voeg artikelen toe aan winkelwagen om af te rekenen."
     },
     "ProductShow": {
-        "qtyLabel": "Qty: ",
-        "addToCartLabel": "ADD TO CART"
+        "qtyLabel": "Aantal: ",
+        "addToCartLabel": "TOEVOEGEN AAN WINKELWAGEN"
     },
     "Cart": {
-        "cartTitle": "Shopping Cart",
-        "noItemMsg": "No items in cart.",
-        "deleteAlt": "Delete item from cart",
-        "totalTitle": "Total: ",
-        "checkoutLabel": "CHECKOUT",
-        "closeAlt": "Close Cart"
+        "cartTitle": "Winkelwagen",
+        "noItemMsg": "Geen artikelen in winkelwagen.",
+        "deleteAlt": "Verwijder artikel uit winkelwagen",
+        "totalTitle": "Totaal: ",
+        "checkoutLabel": "AFREKENEN",
+        "closeAlt": "Sluit winkelwagen"
     },
     "Order": {
-        "statusProcessing": "Processing",
-        "statusShipped": "Shipped"
+        "statusProcessing": "Verwerken",
+        "statusShipped": "Verzonden",
+        "statusDelivered": "Bezorgd"
     },
     "OrderHistory": {
-        "historyTitle": "Order History",
-        "dateHeading": "Date",
-        "numberHeading": "Order Number",
-        "totalHeading": "Total",
+        "historyTitle": "Bestelgeschiedenis",
+        "dateHeading": "Datum",
+        "numberHeading": "Bestelnummer",
+        "totalHeading": "Totaal",
         "statusHeading": "Status"
     },
     "Error404": {
-        "errorMessage": "404 Error: Page not found."
+        "errorMessage": "404 Fout: Pagina niet gevonden."
     },
     "Bottombar": {
-        "menuAlt": "open sidebar menu"
+        "menuAlt": "open zijbalk menu"
     },
     "LocaleSelector": {
-        "localeLabel": "Locale: ",
-        "localeUS": "English (USA)",
-        "localeNL": "Dutch (NLD)",
-        "localeCN": "Chinese (PRC)",
-        "localeDE": "German (FRG)",
-        "LocaleTW": "Chinese (TW)",
-        "Locale419": "Spanish (LatAm)"  
+        "localeLabel": "Taal: ",
+        "localeUS": "Engels (VS)",
+        "localeNL": "Nederlands (NL)",
+        "localeCN": "Chinees (PRC)",
+        "localeDE": "Duits (Duitsland)",
+        "LocaleTW": "Chinees (Taiwan)",
+        "Locale419": "Spaans (Latijns-Amerika)"
     },
-    "Special": "Special"
+    "Special": "Speciaal"
 }
