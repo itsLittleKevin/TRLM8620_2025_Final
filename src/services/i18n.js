@@ -63,10 +63,18 @@ var currencyMap = {
     'nl-NL': 'EUR'
 };
 
-//function to perform rough conversion from galactic credits to real currencies
-//Disabled for project
+//Currency conversion rates relative to USD (base currency)
+//Updated as of December 2025 - these are approximate rates
+var conversionRates = {
+    'en-US': 1.0,      // USD (base)
+    'zh-CN': 7.2,      // 1 USD = 7.2 CNY (RMB)
+    'nl-NL': 0.92      // 1 USD = 0.92 EUR
+};
+
+//function to convert price from USD base to target locale currency
 var convertCurrency = (price) => {
-    return price;
+    const rate = conversionRates[locale] || 1.0;
+    return price * rate;
 }
 
 export default i18n;
