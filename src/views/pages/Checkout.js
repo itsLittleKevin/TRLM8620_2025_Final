@@ -31,6 +31,8 @@ let Checkout = {
         let securityLabel = i18n.getString("Checkout", "securityLabel");
         let securityHolder = i18n.getString("Checkout", "securityHolder");
         let expDateLabel = i18n.getString("Checkout", "expDateLabel");
+        let expDateMonthPlaceholder = i18n.getString("Checkout", "expDateMonthPlaceholder");
+        let expDateYearPlaceholder = i18n.getString("Checkout", "expDateYearPlaceholder");
         let cartTitle = i18n.getString("Checkout", "cartTitle");
         let deleteAlt = i18n.getString("Checkout", "deleteAlt");
         let totalLabel = i18n.getString("Checkout", "totalLabel");
@@ -109,9 +111,9 @@ let Checkout = {
                                 <label for="expDate">${expDateLabel}</label>
                                 <div id="expDropdown">
                                     <select id="expDate" name="expDate" class="checkoutInput">
-                                        <option value="" disabled selected hidden>MM</option>
+                                        <option value="" disabled selected hidden>${expDateMonthPlaceholder}</option>
                                         `;
-        for (let i = 1; i <= 31; i++) {
+        for (let i = 1; i <= 12; i++) {
             var formattedNumber = ("0" + i).slice(-2); //$NON-NLS-L$
             view += `<option value="${formattedNumber}">${formattedNumber}</option>`;
         }
@@ -119,11 +121,13 @@ let Checkout = {
                                     </select>
                                     <h3>/</h3>
                                     <select id="expDateYear" name="expDateYear" class="checkoutInput">
-                                        <option value="" disabled selected hidden>YY</option>
+                                        <option value="" disabled selected hidden>${expDateYearPlaceholder}</option>
                                         `;
-        for (let i = 1; i <= 12; i++) {
-            var formattedNumber = ("0" + i).slice(-2); //$NON-NLS-L$
-            view += `<option value="${formattedNumber}">${formattedNumber}</option>`;
+        const currentYear = new Date().getFullYear();
+        // Add years from current year to 20 years in the future for calendar-like selection
+        for (let i = currentYear; i <= currentYear + 20; i++) {
+            const yearShort = i.toString().slice(-2); //$NON-NLS-L$
+            view += `<option value="${yearShort}">${yearShort}</option>`;
         }
         view += `
                                     </select>

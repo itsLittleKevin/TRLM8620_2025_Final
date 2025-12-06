@@ -72,6 +72,8 @@
         "securityLabel": "Beveiligingscode",
         "securityHolder": "123456",
         "expDateLabel": "Vervaldatum",
+        "expDateMonthPlaceholder": "MM",
+        "expDateYearPlaceholder": "JJ",
         "cartTitle": "Winkelwagen",
         "deleteAlt": "artikel uit winkelwagen verwijderen",
         "totalLabel": "Totaal: ",
