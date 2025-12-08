@@ -978,4 +978,181 @@ p {
   margin-bottom: 5px;
 }
 
+/* Mobile Responsive Styles */
+@media only screen and (max-width: 768px) {
+  /* Header adjustments */
+  header {
+    grid-template-columns: 1fr;
+    height: auto;
+    padding: 10px 0;
+  }
+  
+  header section {
+    padding: 5px 10px;
+  }
+  
+  /* Logo section */
+  #logo {
+    max-width: 200px;
+  }
+  
+  /* Search bar */
+  #search {
+    margin: 10px 0;
+  }
+  
+  .searchTerm {
+    width: 70%;
+    font-size: 14px;
+  }
+  
+  .searchButton {
+    width: 15%;
+  }
+  
+  /* Navigation icons */
+  .navIcons {
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .navIcons a {
+    font-size: 14px;
+  }
+  
+  /* Main content */
+  #page_container {
+    padding: 10px;
+  }
+  
+  /* Product grid */
+  .productContainer {
+    grid-template-columns: 1fr !important;
+    gap: 15px;
+    padding: 10px;
+  }
+  
+  /* Product cards */
+  .productCard {
+    max-width: 100%;
+  }
+  
+  /* Product show page */
+  .productShow {
+    flex-direction: column;
+    padding: 15px;
+  }
+  
+  .productShow .productShowImg,
+  .productShow .productShowDetails {
+    width: 100% !important;
+    max-width: 100%;
+  }
+  
+  /* Cart */
+  .cartContainer {
+    width: 95% !important;
+    padding: 15px;
+  }
+  
+  /* Tables */
+  table {
+    font-size: 12px;
+  }
+  
+  table th,
+  table td {
+    padding: 8px 4px;
+  }
+  
+  /* Forms */
+  .checkoutForm {
+    width: 95% !important;
+    padding: 15px;
+  }
+  
+  .checkoutForm input,
+  .checkoutForm select {
+    font-size: 14px;
+  }
+  
+  /* Buttons */
+  .button, button {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+  
+  /* Terms container */
+  .termContainer {
+    width: 90%;
+    padding: 15px;
+  }
+  
+  /* Footer */
+  #footer_container {
+    padding: 15px 10px;
+  }
+  
+  /* Text sizes */
+  h1 {
+    font-size: 24px !important;
+  }
+  
+  h2 {
+    font-size: 20px !important;
+  }
+  
+  h3 {
+    font-size: 18px !important;
+  }
+  
+  p {
+    font-size: 14px;
+  }
+}
+
+/* Extra small screens */
+@media only screen and (max-width: 480px) {
+  header {
+    grid-template-columns: 1fr;
+  }
+  
+  .searchTerm {
+    width: 65%;
+    font-size: 12px;
+  }
+  
+  .searchButton {
+    width: 20%;
+  }
+  
+  .navIcons {
+    gap: 10px;
+  }
+  
+  .navIcons a {
+    font-size: 12px;
+  }
+  
+  table {
+    font-size: 10px;
+  }
+  
+  table th,
+  table td {
+    padding: 6px 2px;
+  }
+  
+  h1 {
+    font-size: 20px !important;
+  }
+  
+  h2 {
+    font-size: 18px !important;
+  }
+  
+  h3 {
+    font-size: 16px !important;
+  }
+}
 /*# sourceMappingURL=style.css.map */
