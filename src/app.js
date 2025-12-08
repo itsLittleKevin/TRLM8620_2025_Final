@@ -69,6 +69,9 @@ var updateLocale = async(newLocale) => {
     localStorage.setItem('locale', locale);
     console.log("Locale changed to: " + locale);
     
+    //update html lang attribute for font switching
+    document.documentElement.setAttribute('lang', locale);
+    
     //fetch new products list and refresh stringsJSON
     await getProductsList(locale);
 
@@ -245,6 +248,9 @@ const router = async () => {
     const footer = null || document.getElementById('footer_container');
     const cart = null || document.querySelector('.cartSlider');
     const ham = null || document.querySelector('.hamSlider');
+
+    //set html lang attribute for locale-specific styling
+    document.documentElement.setAttribute('lang', locale);
 
     //grab products from JSON file
     if(productList.get("droids").size == 0 && productList.get("vehicles").size == 0) {
