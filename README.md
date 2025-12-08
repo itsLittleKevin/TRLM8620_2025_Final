@@ -82,6 +82,7 @@ npm run server
 Once the server is running, open your browser to:
 - **Local:** http://127.0.0.1:8080
 - **Network:** http://172.16.163.40:8080 (or your local IP)
+- **Live Demo:** http://demo.itslittlekevin.com:9090
 
 The locale selector in the top-right allows you to switch between English, Dutch, and Chinese.
 
@@ -243,7 +244,7 @@ This project was created for educational purposes as part of the TRLM8620 course
 
 <div align="center">
 
-**[🌐 View Project Plan](./LOCALIZATION_PROJECT_PLAN.md)** | **[💭 Read Reflection](./PROJECT_REFLECTION.md)** | **[🚀 Live Demo](#quick-start)**
+**[🌐 View Project Plan](./LOCALIZATION_PROJECT_PLAN.md)** | **[💭 Read Reflection](./PROJECT_REFLECTION.md)** | **[🚀 Live Demo](http://demo.itslittlekevin.com:9090)**
 
 Made with ❤️ and a commitment to global accessibility
 
